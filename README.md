@@ -1,4 +1,4 @@
-# Modelo de Machine Learning para la predicción del pérdida de clientes 🤖
+# Predicción del Churn de clientes 🤖
 
 Una empresa de telecomunicaciones (Vodafone) desea estimar la probabilidad de que un cliente abandone la compañía. Este proyecto tiene como objetivo desarrollar un modelo de clasificación capaz de predecir si un cliente abandonará el servicio (**churn**) o permanecerá en la empresa.
 
@@ -10,7 +10,7 @@ El proyecto sigue la metodología **CRISP-DM (Cross-Industry Standard Process fo
 
 El modelo predictivo de abandono de clientes constituye una solución basada en datos diseñada para abordar el desafío constante de la pérdida de clientes en industrias basadas en suscripciones. Su objetivo es identificar a los clientes con mayor riesgo de abandonar el servicio, permitiendo a la empresa implementar acciones preventivas y desarrollar estrategias de retención personalizadas que contribuyan a mejorar la fidelización de los clientes.
 
-## Tabla de Contenidos 📖🔖
+## Tabla de Contenidos 📖
 - [Descripción General del Proyecto](#project-overview)
 - [Enlaces del Proyecto](#project-links-link)
 - [Herramientas Utilizadas en el Proyecto](#some-tools-used-for-the-project-toolbox)
@@ -190,11 +190,6 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
     </tr>
 </table>
 
-## Panel de Control en Power BI :tv:
-![Dashboard](https://github.com/Azie88/ML-Classification-Customer-Churn-Prediction/assets/101363399/0eca9b50-f193-4d62-a18e-9a17703930e8)
-
-[View Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOWE3MjUyZDQtOTQwMi00MzRiLTk0MGItOTY0MDkwYTExNWY5IiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9)
-
 ## Conclusiones y Recomendaciones
 
 - El número de meses que el cliente ha permanecido en la empresa (**tenure**) y el tipo de contrato del cliente (**Contract**) son las variables más importantes y presentan la mayor relación con el abandono de clientes (**Churn**).
@@ -213,7 +208,7 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 
 Es necesario tener [`Python 3`](https://www.python.org/) instalado en el sistema. Posteriormente, puede clonar este repositorio y ubicarse en el directorio `root :: repository_name> ...`
 
-1. Clonar este repositorio: `git clone https://github.com/Azie88/ML-Classification-Customer-Churn-Prediction`
+1. Clonar este repositorio: `git clone https://github.com/CarloEduardo/Prediccion_de_Churn_de_Clientes.git`
 2. En su entorno de desarrollo (IDE), crear un entorno virtual e instalar las dependencias necesarias para ejecutar el proyecto:
 
 - Windows:       
