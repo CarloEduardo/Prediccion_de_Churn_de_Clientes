@@ -1,7 +1,5 @@
 # Predicción del abandono de clientes 🤖
 
-![Customer Churn](https://github.com/CarloEduardo/05-Prediccion-de-Abandono-de-Clientes/tree/main/Images/Portada-abandono-clientes.png)
-
 ![Predicción del abandono de clientes](Images/Portada-abandono-clientes.png)
 
 Una empresa de telecomunicaciones (Vodafone) desea estimar la probabilidad de que un cliente abandone la compañía. Este proyecto tiene como objetivo desarrollar un modelo de clasificación capaz de predecir si un cliente abandonará el servicio (**churn**) o permanecerá en la empresa.
@@ -212,7 +210,7 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 
 Es necesario tener [`Python 3`](https://www.python.org/) instalado en el sistema. Posteriormente, puede clonar este repositorio y ubicarse en el directorio `root :: repository_name> ...`
 
-1. Clonar este repositorio: `git clone https://github.com/CarloEduardo/Prediccion_de_Churn_de_Clientes.git`
+1. Clonar este repositorio: `git clone https://github.com/CarloEduardo/05-Prediccion-de-Abandono-de-Clientes.git`
 2. En su entorno de desarrollo (IDE), crear un entorno virtual e instalar las dependencias necesarias para ejecutar el proyecto:
 
 - Windows:       
