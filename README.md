@@ -1,4 +1,8 @@
-# Predicción del Churn de clientes 🤖
+# Predicción del abandono de clientes 🤖
+
+![Customer Churn](https://github.com/CarloEduardo/05-Prediccion-de-Abandono-de-Clientes/tree/main/Images/Portada-abandono-clientes.png)
+
+![Predicción del abandono de clientes](Images/Portada-abandono-clientes.png)
 
 Una empresa de telecomunicaciones (Vodafone) desea estimar la probabilidad de que un cliente abandone la compañía. Este proyecto tiene como objetivo desarrollar un modelo de clasificación capaz de predecir si un cliente abandonará el servicio (**churn**) o permanecerá en la empresa.
 
