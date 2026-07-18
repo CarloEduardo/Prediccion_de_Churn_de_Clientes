@@ -12,7 +12,7 @@ El proyecto sigue la metodología **CRISP-DM (Cross-Industry Standard Process fo
 
 El modelo predictivo de abandono de clientes constituye una solución basada en datos diseñada para abordar el desafío constante de la pérdida de clientes en industrias basadas en suscripciones. Su objetivo es identificar a los clientes con mayor riesgo de abandonar el servicio, permitiendo a la empresa implementar acciones preventivas y desarrollar estrategias de retención personalizadas que contribuyan a mejorar la fidelización de los clientes.
 
-## Tabla de Contenidos 📖
+## Contenidos 📖
 - [Descripción del Proyecto](#project-overview)
 - [Enlaces del Proyecto](#project-links-link)
 - [Herramientas Utilizadas en el Proyecto](#some-tools-used-for-the-project-toolbox)
@@ -24,7 +24,17 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 - [Cómo Utilizar este Repositorio](#how-to-use-this-repository-monocle_face)
 - [Author](#author-writing_hand)
 
-##  Herramientas Utilizadas en el Proyecto :toolbox:
+1. [**Requisitos**](#1)
+2. [**Instalación y uso**](#2)
+3. [**Variables**](#3)
+4. [**Funcionamiento del script**](#4)
+5. [**Resultado**](#5)
+6. [**Observaciones**](#6)
+___
+
+
+## 1. Requisitos ⚙️ <a id='1'></a>
+Para ejecutar este proyecto únicamente se requiere:
 <p align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="vscode" width="45" height="45"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" alt="pandas" width="45" height="45"/>
@@ -33,10 +43,39 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" alt="jupyter" width="45" height="45"/>
 </p>
 
+## 2. Instalación y uso 🚀 <a id='2'></a>
 
-## Dataset :floppy_disk:
+### 2.1. Clonar el repositorio
+
+1. Abrir una terminal o línea de comandos Git Bash.
+
+2. Ejecutar el siguiente comando para clonar el repositorio en tu máquina local:
+```bash
+git clone https://github.com/CarloEduardo/05-Prediccion-de-Abandono-de-Clientes.git
+```
+
+3. Establecer como directorio de trabajo la carpeta clonada.
+```
+cd \E:\07. GitHub\05-Prediccion-de-Abandono-de-Clientes\
+```
+
+### 2.1. Uso :monocle_face:
+
+1. Abrir el archivo 
+```bash
+Prediccion-de-Abandono-de-Clientes.ipynb
+```
+
+2. Instalar las bibliotecas requeridas. Estas se encuentran especificadas en el archivo `requirements.txt`.
+```python
+import sys
+!"{sys.executable}" -m pip install pyodbc python-dotenv pandas openpyxl numpy seaborn matplotlib plotly statsmodels scipy scikit-learn imbalanced-learn xgboost joblib
+```
+
+## 3. Variables :floppy_disk:<a id="3"></a>
 
 **Descripción de variables de las bases de datos**
+
 | **Nombre de la Variable** | **Descripción** | **Tipo de Dato** |
 |---------------------------|-----------------|------------------|
 | `customerID` | Contiene el identificador único del cliente. | Categórico |
@@ -61,7 +100,9 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 | `TotalCharges` | Monto total cobrado al cliente. | Objeto (`object`) |
 | `Churn` | Indica si el cliente abandonó el servicio o no (Sí, No). | Categórico |
 
-## Proceso
+## 4. Funcionamiento del script <a id="4"></a>
+
+El script realiza automáticamente las siguientes tareas:
 
 - Extraer datos de múltiples fuentes, incluyendo una base de datos remota en SQL Server.
 
@@ -85,7 +126,7 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 
 - Presentar las conclusiones y documentar el proyecto mediante la elaboración de un artículo o informe técnico.
 
-## Rendimiento del Modelo :bar_chart:
+## 5. Resultado 📂<a id="5"></a>
 
 <table>
     <tr>
@@ -96,7 +137,7 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
     </tr>
 </table>
 
-## Conclusiones y Recomendaciones
+## 6. Observaciones ⚠️<a id="6"></a>
 
 - El número de meses que el cliente ha permanecido en la empresa (**tenure**) y el tipo de contrato del cliente (**Contract**) son las variables más importantes y presentan la mayor relación con el abandono de clientes (**Churn**).
 
@@ -110,37 +151,11 @@ El modelo predictivo de abandono de clientes constituye una solución basada en 
 
 - Los métodos de **ensamble (Ensemble Methods)** presentan un mejor desempeño en tareas de clasificación en comparación con los modelos basados en un único clasificador.
 
-## Cómo utilizar este repositorio :monocle_face:
 
-Es necesario tener [`Python 3`](https://www.python.org/) instalado en el sistema. Posteriormente, puede clonar este repositorio y ubicarse en el directorio `root :: repository_name> ...`
+## Licencia <a id="9"></a>
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](/LICENSE) para más detalles.
 
-1. Clonar este repositorio: `git clone https://github.com/CarloEduardo/05-Prediccion-de-Abandono-de-Clientes.git`
-2. En su entorno de desarrollo (IDE), crear un entorno virtual e instalar las dependencias necesarias para ejecutar el proyecto:
-
-- Windows:       
-        python -m venv venv; 
-        venv\Scripts\activate; 
-        python -m pip install -q --upgrade pip; 
-        python -m pip install -qr requirements.txt  
-
-- Linux & MacOs:
-        python3 -m venv venv; 
-        source venv/bin/activate; 
-        python -m pip install -q --upgrade pip; 
-        python -m pip install -qr requirements.txt  
-
-Los dos comandos extensos tienen la misma estructura: encadenan varias instrucciones utilizando el símbolo `;`. No obstante, también pueden ejecutarse manualmente una por una.
-
-- **Crear un entorno virtual de Python**, el cual permitirá aislar las bibliotecas utilizadas en el proyecto y evitar conflictos con otras instalaciones.
-- **Activar el entorno virtual**, de modo que el intérprete de Python y las bibliotecas utilizadas correspondan únicamente a dicho entorno.
-- **Actualizar Pip**, el gestor de paquetes de Python, para disponer de la versión más reciente y garantizar una correcta instalación de las dependencias.
-- **Instalar las bibliotecas requeridas**, especificadas en el archivo `requirements.txt`, para que puedan importarse correctamente tanto en los scripts de Python como en los notebooks de Jupyter.
-
-**Nota:** Si utiliza **macOS** y experimenta problemas durante la instalación, se recomienda instalar `Xcode`.
-
-3. Explorar el notebook de Jupyter para conocer el procedimiento completo y la ejecución del código.
-4. Revisar el panel de Power BI para interactuar con las visualizaciones desarrolladas.
-5. Leer el artículo publicado para obtener una comprensión más detallada del proyecto y de los resultados obtenidos.
+## Autor 👨‍💻<a id="10"></a>
 
 ## Autor :writing_hand:
 Carlos Eduardo Torres Garcia
