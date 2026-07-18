@@ -158,6 +158,15 @@ El script realiza automáticamente las siguientes tareas:
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th> Accuracy Scores of trained models </th>
+    </tr>
+    <tr>
+        <td><img src="Screenshots\Model_Performance_Accuracy.png"/></td>
+    </tr>
+</table>
+
 
 ## 6. Conclusiones <a id="6"></a>
 
