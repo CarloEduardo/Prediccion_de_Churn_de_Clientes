@@ -118,40 +118,7 @@ El script realiza automáticamente las siguientes tareas:
 
 <table>
     <tr>
-        <th>Precisión de los Modelos Entrenados</th>
-    </tr>
-    <tr>
-        <td><img src="images\Model_Performance_Accuracy.png"/></td>
-    </tr>images
-</table>
-
-<table>
-    <tr>
-        <th>Precisión de los Modelos Entrenados</th>
-    </tr>
-    <tr>
-        <td>
-            <img src="images/Model_Performance_Accuracy.png" alt="Precisión de los modelos entrenados">
-        </td>
-    </tr>
-</table>
-
-
-<table>
-    <tr>
-        <th>Precisión de los Modelos Entrenados</th>
-    </tr>
-    <tr>
-        <td>
-            <img src="images/Model_Performance_Accuracy.png" alt="Precisión de los modelos entrenados">
-        </td>
-    </tr>
-</table>
-
-
-<table>
-    <tr>
-        <th> Accuracy Scores of trained models </th>
+        <th> Precisión de los Modelos Entrenados </th>
     </tr>
     <tr>
         <td><img src="images\Model_Performance_Accuracy.png"/></td>
