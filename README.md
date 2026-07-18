@@ -125,6 +125,17 @@ El script realiza automáticamente las siguientes tareas:
     </tr>images
 </table>
 
+<table>
+    <tr>
+        <th>Precisión de los Modelos Entrenados</th>
+    </tr>
+    <tr>
+        <td>
+            <img src="images/Model_Performance_Accuracy.png" alt="Precisión de los modelos entrenados">
+        </td>
+    </tr>
+</table>
+
 ## 6. Conclusiones <a id="6"></a>
 
 - El número de meses que el cliente ha permanecido en la empresa (**tenure**) y el tipo de contrato del cliente (**Contract**) son las variables más importantes y presentan la mayor relación con el abandono de clientes (**Churn**).
